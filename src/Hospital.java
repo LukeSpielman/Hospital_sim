@@ -22,5 +22,8 @@ public class Hospital {
             System.out.println(patients[i]);
         }
     }
+    public int getPatientCount() {
+        return count;
+    }
 }
 
