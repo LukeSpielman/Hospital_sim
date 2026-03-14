@@ -2,7 +2,8 @@ public class Hospital {
     private Patient[] patients;
     private int count;
 
-    public Hospital(int capacity) {
+
+    public Hospital (int capacity) {
         patients = new Patient[capacity];
         count = 0;
     }
@@ -22,4 +23,4 @@ public class Hospital {
         }
     }
 }
-}
+
