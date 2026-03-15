@@ -29,6 +29,7 @@ hosp.addPatient(p9);
         Patient p10 = Patient.createPatient();
 hosp.addPatient(p10);
 hosp.printPatients();
+System.out.print(hosp.getPatientCount());
     }
 
     @Test
@@ -57,5 +58,6 @@ hosp.printPatients();
         Patient p11 = Patient.createPatient();
         hosp.addPatient(p11);
         hosp.printPatients();
+        System.out.print(hosp.getPatientCount());
     }
 }
