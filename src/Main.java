@@ -4,11 +4,6 @@ public class Main {
         sim.setup();
         sim.run();
         sim.process();
-
-            }
-
-}
-    public static Simulation(getSim){
-
-
     }
+}
+
