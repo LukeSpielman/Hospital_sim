@@ -60,4 +60,10 @@ System.out.print(hosp.getPatientCount());
         hosp.printPatients();
         System.out.print(hosp.getPatientCount());
     }
+    @Test
+    void Hospital_HoldsNothing() {
+        Hospital hosp = new Hospital(10);
+        hosp.printPatients();
+        System.out.print(hosp.getPatientCount());
+    }
 }
