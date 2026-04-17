@@ -3,6 +3,7 @@ public class Simulation {
     private static Random rand = new Random();
     public static Random getRandom() {
         return rand;
+
     }
     private int totalTime  = 600;
     private int currentTime = 0;
